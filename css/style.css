@@ -1216,3 +1216,19 @@ height: 100%;
 height: 100%;
 }
 
+.btn-verde {
+    background-color: #C3D204;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-verde:hover {
+    background-color: #a6b003; /* Color ligeramente más oscuro al pasar el mouse */
+  }
+
+  .btn-verde:active {
+    background-color: #869c02; /* Color aún más oscuro al hacer clic */
+  }
